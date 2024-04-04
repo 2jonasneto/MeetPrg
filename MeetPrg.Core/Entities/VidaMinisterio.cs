@@ -4,7 +4,7 @@
     {
 
         public DateTime DataDesignacao { get; private set; }
-        public string? Semana { get; private set; }
+        public Guid SemanaId { get; private set; }
         public string? Secao { get; private set; }
         public string? Parte { get; private set; }
        
