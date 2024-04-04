@@ -1,8 +1,8 @@
 ﻿namespace MeetPrg.Core.Entities
 {
-    public sealed class Participantes : Entity
+    public sealed class Participante : Entity
     {
-        public Participantes(string? nome, bool dianteira, bool estudante, bool leitorEstudoDeLivro, bool leitorEstudoSentinela, bool indicador, bool volante, bool audioVideo)
+        public Participante(string? nome, bool dianteira, bool estudante, bool leitorEstudoDeLivro, bool leitorEstudoSentinela, bool indicador, bool volante, bool audioVideo)
         {
             Nome = nome;
             Dianteira = dianteira;
